@@ -1,1 +1,1 @@
-# wayland-conf
+# waybar-conf

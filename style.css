@@ -25,8 +25,9 @@ window#waybar {
 }
 
 #workspaces button:hover {
-    background: rgba(64, 197, 255, 0.8);
-    color: #ffffff;
+    background: #ffffff;
+    color: #000000;
+    transition: none;
 }
 
 #mode {
@@ -50,8 +51,8 @@ window#waybar {
 }
 
 #pulseaudio:hover {
-    background: rgba(66, 197, 245, 0.8);
-    color: #ffffff;
+    background: #ffffff;
+    color: #000000;
 }
 
 #network {
@@ -60,8 +61,8 @@ window#waybar {
 }
 
 #network:hover {
-    background: rgba(66, 197, 245, 0.8);
-    color: #ffffff;
+    background: #ffffff;
+    color: #000000;
 }
 
 #battery {

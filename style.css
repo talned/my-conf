@@ -1,6 +1,8 @@
 * {
-    font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
-    font-size: 20px;
+    font-family: Cantarell, FontAwesome;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 
 window#waybar {
@@ -8,9 +10,13 @@ window#waybar {
     color: #ffffff;
 }
 
+#workspaces label {
+    font-size: 1.7rem;   
+}
+
 #workspaces button {
     border-radius: 0;
-    padding: 4px;
+    padding: 2px;
 }
 
 #workspaces button.focused {
@@ -19,7 +25,7 @@ window#waybar {
 }
 
 #workspaces button:hover {
-    background: rgba(66, 197, 245, 0.8);
+    background: rgba(64, 197, 255, 0.8);
     color: #ffffff;
 }
 

@@ -1,6 +1,0 @@
-show=dmenu
-width=10%
-height=18%
-hide_search=true
-dynamic_lines=true
-single_click=true

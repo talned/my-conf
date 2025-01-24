@@ -1,0 +1,82 @@
+* {
+    font-family: Cantarell, FontAwesome;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+window#waybar {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#workspaces label {
+    font-size: 1.7rem;   
+}
+
+#workspaces button {
+    border-radius: 0;
+    padding: 2px;
+}
+
+#workspaces button.focused {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#workspaces button:hover {
+    background: #ffffff;
+    color: #000000;
+    transition: none;
+}
+
+#mode {
+    background-color: rgb(100, 27, 27);
+    color: #ffffff;
+    padding: 4px;
+    margin-left: 15px;
+}
+
+#scratchpad {
+    margin-left: 20px
+}
+
+#clock {
+    margin-right: 2rem;
+}
+
+#pulseaudio {
+    margin-right: 2rem;
+    padding: 6px;
+}
+
+#pulseaudio:hover {
+    background: #ffffff;
+    color: #000000;
+}
+
+#network {
+    margin-right: 2rem;
+    padding: 4px;
+}
+
+#network:hover {
+    background: #ffffff;
+    color: #000000;
+}
+
+#battery {
+    margin-right: 2rem;
+}
+
+#custom-power {
+    font-size: 25px;
+    margin-right: 2rem;
+    color: rgb(255, 0, 0);
+}
+
+#custom-power:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+

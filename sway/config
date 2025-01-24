@@ -238,20 +238,14 @@ bindsym $mod+r mode "resize"
 #
 # Display:
 #
-    #Disable eDP-1
-    exec swaymsg -t get_outputs | grep -q 'HDMI-A-1' && swaymsg output eDP-1 disable
-    
-    #Disable eDP-1 with keybind
-    bindsym Ctrl+Shift+1 exec swaymsg output eDP-1 disable
-    
-    #Enable eDP-1 with keybind
-    bindsym Ctrl+Shift+2 exec swaymsg output eDP-1 enable 
+    #Toggle eDP-1 with keybind
+    bindsym Ctrl+1 exec swaymsg output eDP-1 toggle
 
 #
 # Mic:
 #
     #Mute Mic
-    bindsym Grave exec pactl set-source-mute alsa_input.pci-0000_00_1f.3.analog-stereo toggle
+    #bindsym Grave exec pactl set-source-mute alsa_input.pci-0000_00_1f.3.analog-stereo toggle
 
 #
 # Status Bar:

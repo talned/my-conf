@@ -1,1 +1,1 @@
-# waybar-conf
+# my-conf
